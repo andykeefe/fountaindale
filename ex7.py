@@ -16,7 +16,7 @@ def saltPasswd_sha512(password):
     hash_value = hashlib.sha512(password + salt).hexdigest()
     print("      The length of the password: %s" % len(password))
     print("      Length of hash: %s\n" % len(hash_value))
-    print("      Length of hash in bits: %s" % (len(hash_value) * 4)))
+    print("      Length of hash in bits: %s" % (len(hash_value) * 4))
     return(hash_value)
 
 
