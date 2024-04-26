@@ -1,7 +1,7 @@
 import time
 
 
-def swearWord(name):
+def swear_word(name):
     print("Yes or no: are you learning anything?")
     answer = input()
 
@@ -29,7 +29,7 @@ def main():
     name = input()
     print("Well done, " + name + "....")
     congrats()
-    swearWord(name)
+    swear_word(name)
 
 if __name__ == '__main__':
     main()
