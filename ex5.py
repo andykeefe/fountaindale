@@ -1,5 +1,4 @@
-print("Enter input: ")
-list = input()
+list = input("Enter input: ")
 print(len(list))
 
 print("Enter an index: ")
